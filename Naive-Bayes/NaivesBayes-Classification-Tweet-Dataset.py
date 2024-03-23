@@ -51,7 +51,7 @@ test_tfidf=tfidf_Transformer.transform(test_df_matrix)
 test_tfidf.shape
 
 
-from sklearn.na2ive_bayes import MultinomialNB as MB
+from sklearn.naive_bayes import MultinomialNB as MB
 classifer_mb=MB()
 classifer_mb.fit(train_tfidf,df_train.target)
 
